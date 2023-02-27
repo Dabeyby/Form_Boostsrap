@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Producto</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>REGISTO DE PRODUCTO</h1>
+<div class="col-md-4">
+    <form action="mensaje.html" method="get">
+        <label for="validationCustom01" class="form-label">Código: </label>
+        <input type="text" class="form-control" id="validationCustom01" name="Codigo" required/>
+
+        <label for="validationCustom02" class="form-label">Descripción: </label>
+        <input type="text" class="form-control" id="validationCustom02" name="Descripcion" required/>
+
+        <label for="validationCustom03" class="form-label">Código de barra: </label>
+        <input type="text"  class="form-control" id="validationCustom03" name="CodigoB" required/>
+
+        <label for="validationCustom04" class="form-label">Precio Unitario: </label>
+        <input type="text" class="form-control" id="validationCustom04" name="Codigo" required/>
+
+        <label for="validationCustom05" class="form-label">Stock: </label>
+        <input type="text" class="form-control" id="validationCustom05" name="Codigo" required/>
+
+        <label for="validationCustom06" class="form-label">Proveedor: </label>
+        <input type="text" class="form-control" id="validationCustom06" name="Codigo" required/>
+       
+        <label for="validationCustom07" class="form-label">Estado: </label>
+        <input type="checkbox"  id="validationCustom07" required>Activo</input>
+      
+        <label for="validationCustom07" class="form-label">Categoria:</label>
+        <select name="categoria" required>
+            <option value="">Categoria1</option>
+            <option value="">Categoria2</option>
+            <option value="">Categoria3</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="Guardar" value="Guardar">
+    </form>
+    <br>
+    <a href="index.html"><button>Cancelar</button></a>
+</div>
+    
+</body>
+</html>
